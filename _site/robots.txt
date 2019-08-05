@@ -1,0 +1,10 @@
+User-Agent: Googlebot-Image
+Disallow: /images/work/*
+
+User-Agent: Googlebot-Image
+Disallow: /images/work/**/*.png$
+
+User-Agent: Googlebot-Image
+Disallow: /images/work/*.png$
+
+Sitemap: https://zagahr.me/sitemap.xml

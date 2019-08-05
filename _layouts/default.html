@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+  {% include meta.html %}
+  {% seo %}
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/page/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/lightbox.min.css" />
+  <script type="text/javascript" src="{{ site.baseurl }}/scripts.js"></script>
+  <script type="text/javascript" src="{{ site.baseurl }}/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="content-wrap">
+      <header class="masthead clearfix containerHeader">              
+        <div class="vertical-row">
+          <div class="vertical">
+            <div class="left">
+              <p class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
+          </div>
+          <div class="right">
+            <nav>
+              <a href="{{ site.baseurl }}/music/">music</a>
+              <a href="{{ site.baseurl }}/projects">projects</a>
+              <a href="{{ site.baseurl }}/about">about</a>
+            </nav>
+            </div>
+          </div>
+        </div>                
+      </header>
+
+
+      <div id="main" role="main" class="container">
+        {{ content }}
+      </div>
+    </div>
+<!--
+    <div class="wrapper-footer outer">
+      <footer class="middle">
+        <div class="codingContainer inner">
+          <pre>
+
+          </pre>
+      </footer>
+    </div>
+-->
+    {% include analytics.html %}
+  </div>
+</body>
+
+</html>

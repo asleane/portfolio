@@ -1,0 +1,19 @@
+---
+layout: default
+title: Music
+description:
+---
+
+<article class="page">
+    <div class="musicGroup">
+        {% for post in site.posts %}
+        {% if post.categories contains 'music' %}
+        <article class="musicArticle">          
+            <div class="entry">
+                {{ post.content }}
+            </div>
+        </article>
+        {% endif %}
+        {% endfor %}
+    </div>
+</article>

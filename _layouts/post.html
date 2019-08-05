@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="fullPost">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="tags">
+    {% for tag in page.tags %}
+    <a class="tag {{tag}}">{{ tag }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include share.html %}
+</article>

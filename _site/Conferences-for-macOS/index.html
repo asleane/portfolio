@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+      <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <meta name="twitter:title" content="Conferences for macOS - Timon Blask" />
+    <meta name="twitter:description"
+        content="Conferences for macOS is the best way to watch the latest and greatest videos from your favorite developer conferences for free on your M..." />
+    
+    
+    <meta name="twitter:image" content="http://localhost:4000/images/conferences/conf_mac.png" />
+    
+
+    
+    <meta property="article:tag" content="Swift">
+    
+    <meta property="article:tag" content="TinyConstraints">
+    
+    <meta property="article:tag" content="Realm">
+    
+    <meta property="article:tag" content="Programmatically UI">
+    
+    <meta property="article:tag" content="Fabric.io">
+    
+    <meta property="article:tag" content="Fastlane">
+    
+    <meta property="article:tag" content="git flow">
+    
+    <meta property="article:tag" content="Vapor">
+    
+    <meta property="article:tag" content="MySQL">
+    
+    <meta property="article:tag" content="Docker">
+    
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Conferences for macOS | Asléane</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Conferences for macOS" />
+<meta name="author" content="Bea Redweik" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Conferences for macOS is the best way to watch the latest and greatest videos from your favorite developer conferences for free on your Mac. Either search specifically for conferences, talks, speakers or topics or simply browse through the catalog - you can add talks to your watchlist to save for later, favorite or continue watching where you left off." />
+<meta property="og:description" content="Conferences for macOS is the best way to watch the latest and greatest videos from your favorite developer conferences for free on your Mac. Either search specifically for conferences, talks, speakers or topics or simply browse through the catalog - you can add talks to your watchlist to save for later, favorite or continue watching where you left off." />
+<link rel="canonical" href="http://localhost:4000/Conferences-for-macOS/" />
+<meta property="og:url" content="http://localhost:4000/Conferences-for-macOS/" />
+<meta property="og:site_name" content="Asléane" />
+<meta property="og:image" content="http://localhost:4000/images/conferences/conf_mac.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-02-02T00:00:00+00:00" />
+<script type="application/ld+json">
+{"description":"Conferences for macOS is the best way to watch the latest and greatest videos from your favorite developer conferences for free on your Mac. Either search specifically for conferences, talks, speakers or topics or simply browse through the catalog - you can add talks to your watchlist to save for later, favorite or continue watching where you left off.","author":{"@type":"Person","name":"Bea Redweik"},"@type":"BlogPosting","url":"http://localhost:4000/Conferences-for-macOS/","image":"http://localhost:4000/images/conferences/conf_mac.png","headline":"Conferences for macOS","dateModified":"2019-02-02T00:00:00+00:00","datePublished":"2019-02-02T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Conferences-for-macOS/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <link rel="icon" type="image/png" href="/images/page/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="/lightbox.min.css" />
+  <script type="text/javascript" src="/scripts.js"></script>
+  <script type="text/javascript" src="/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="content-wrap">
+      <header class="masthead clearfix containerHeader">              
+        <div class="vertical-row">
+          <div class="vertical">
+            <div class="left">
+              <p class="site-name"><a href="/">Asléane</a></p>
+          </div>
+          <div class="right">
+            <nav>
+              <a href="/music/">music</a>
+              <a href="/projects">projects</a>
+              <a href="/about">about</a>
+            </nav>
+            </div>
+          </div>
+        </div>                
+      </header>
+
+
+      <div id="main" role="main" class="container">
+        <article class="fullPost fullProject">
+  <div class="center">
+    <div class="left">
+      <h1>Conferences for macOS</h1>
+    </div>
+    <div class="right">
+    </div>
+  </div>
+
+  <div class="entry">
+    <p>Conferences for macOS is the best way to watch the latest and greatest videos from your favorite developer conferences for free on your Mac. Either search specifically for conferences, talks, speakers or topics or simply browse through the catalog - you can add talks to your watchlist to save for later, favorite or continue watching where you left off.</p>
+
+<p><a href="/images/conferences/conf_mac.png" data-lightbox="roadtrip"><img alt="Without caching" src="/images/conferences/conf_mac.png" /></a></p>
+
+<hr />
+
+<h2 id="idea">Idea</h2>
+<p>I have already been to a couple of iOS developer conferences and had the same problem every time - I was not able to see every talk. Sometimes it was not possible because the conference had multiple tracks and sometimes it was just nicer to talk to friends and meet new people. So after almost every conference, I ended up searching the internet for conference videos. This was really annoying and I thought it would be really nice to watch these videos in a single place. After a little bit of research, I found some websites like <a href="http://www.swifttube.co">Swifttube</a> and <a href="http://learntalks.com">LearnTalks</a> but wasn’t really satisfied. I wanted to have the ability to add videos to a watchlist and track progress of videos in a native macOS application. I was not able to find such an app, so I decided to build one on my own.</p>
+
+<h2 id="native-macos-app-vs-electron-app">Native macOS App vs. Electron app</h2>
+
+<p>Before I started, I had to make the decision whether I wanted to create a native macOS app or an Electron-based app. I had no experience with either of them, but worked with JavaScript-based mobile apps before - which I didn’t like - therefore I chose to develop a native macOS app written in Swift.</p>
+
+<p>Like always when developing for new platforms, using new frameworks or learning new programming languages, you are a little bit lost in the beginning, read a lot of documentation and finally get the hang of it. So I started reading the documentation and realised very quickly that AppKit and UIKit share a lot of concepts. <code class="highlighter-rouge">UIView</code> is <code class="highlighter-rouge">NSView</code>, <code class="highlighter-rouge">UIImage</code> is <code class="highlighter-rouge">NSImage</code>, <code class="highlighter-rouge">UIControl</code> is <code class="highlighter-rouge">NSControl</code>, <code class="highlighter-rouge">UIViewController</code> is <code class="highlighter-rouge">NSViewController</code> and so on - I encountered only a few differences and was able to build a POC within two days.</p>
+
+<p><br /></p>
+
+<p><strong>Multi-Window Support</strong> - As a mobile/backend developer, the concept of multi-window support was new to me. MacOS apps can have multiple windows, for example: a window for app settings, a window for shared dialogue, a window for your main app or even no window when developing a menu bar app. And again, I was really surprised when I found that iOS is also able to support multiple <code class="highlighter-rouge">UIScreens</code>. When you connect or disconnect an external monitor to an iOS device, the system sends notifications like <code class="highlighter-rouge">didConnectNotification</code> and <code class="highlighter-rouge">didDisconnectNotification</code>. Based on these notifications you can either add or remove a UIScreen to the external monitor.</p>
+
+<p><strong>Flexible Layout</strong> - Again, it pleasant to see that Auto Layout is supported on macOS, since I’ve already worked a lot with it in the past. My usually go-to method, in order to interact with Auto Layout, is the Visual Format Language. But I thought it would be worth to give a third-party framework like TinyConstraints a try and I have to say that I liked working with it. It is super easy to set up complex views with a minimum amount of code. Compared to iOS, one difference I encountered was that the size of <code class="highlighter-rouge">NSWindow</code> and <code class="highlighter-rouge">NSSpitViewController</code> can be changed by the user - so if you ever work on a macOS app, make sure to set a minimum size for <code class="highlighter-rouge">NSWindow</code> and keep your constraints as flexible as possible.</p>
+
+<h2 id="server-side">Server-Side</h2>
+
+<p>The best way to provide new content for the app was to implement a dedicated server with a REST-API. I had to chose between a stand-alone server or services like Firebase. Since I have worked with Firebase a lot in the past, I thought it would be a great chance to refresh my backend developer skills. On the server side, I mainly worked with <a href="https://nodejs.org/">Node.js</a> and <a href="https://www.typescriptlang.org">TypeScript</a> in the past and again thought it would be nice to try something new. I’ve decided to give Vapor (Server-side Swift) a try and I can say now it was a good choice. I probably would not have said this in the beginning, because in my opinion the documentation could definitely be improved - so if you want to look into Vapor, I would recommend reading <a href="https://store.raywenderlich.com/products/server-side-swift-with-vapor">Server Side Swift with Vapor</a> rather than the official documentation.</p>
+
+<p>In terms of data storage I decided to set up a simple MySQL database with the following scheme:</p>
+
+<p><a href="/images/conferences/conf_database.png" data-lightbox="roadtrip"><img alt="Without caching" src="/images/conferences/conf_database.png" /></a></p>
+
+<p>The server and the database are currently hosted on the cheapest available droplet on <a href="https://digitalocean.com">DigitalOcean</a>. In the beginning, I wasn’t sure if DigitalOcean was the right choice, which is why I looked into technologies like <a href="https://www.docker.com/">Docker</a> in order to simply deploy my server onto different machines. This was my first experience with docker and have to say it’s an incredible tool, it takes a little bit of time to configure your project, but trust me, in the end, it will save you a lot of time and stress.</p>
+
+<p>It’s always hard to tell how many users will use your product in the end, but I wanted to make sure that my API was able to serve a lot of requests without crashing. So I ran a few tests and the results were awful.</p>
+
+<p>I tested my API with 15,000 requests per minute, ambitious I know, and after only 13 successful requests the response time was so high that the test automatically stopped. In order to fix this I developed a custom caching middleware and after a few tests and some adjustments the final results were great. Now, in one minute 15,000 requests were successful, 4.11 GB data was transferred and all of that with an average response time of 14 ms.</p>
+
+<p><br /></p>
+
+<p align="center">
+    <a href="/images/conferences/caching_0.png" data-lightbox="roadtrip"><img alt="Without caching" src="/images/conferences/caching_0.png" width="40%" /></a>
+    <a href="/images/conferences/caching_2.png" data-lightbox="roadtrip"><img alt="Second iteracton caching" src="/images/conferences/caching_2.png" width="40%" /></a>
+</p>
+
+<p><br /></p>
+
+<p>So overall, DigitalOcean and Vapor were the right choices for me, I never had any issues and my server has an uptime for more than 90 days.</p>
+
+<h2 id="release-flow">Release flow</h2>
+
+<p>Probably the only thing I was certain of in the beginning, was that I would want to publish my app Open Source. In my opinion Open Source software has a lot of benefits. One of them is that you allow anyone to contribute to your project. In order to help contributors understand your project and its needs, it’s important to provide some <a href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md">guidelines</a>. Even more important is to use version control (i.e. <a href="https://git-scm.com/">git</a>). There are a lot of different opinions on how to use version control in terms of branch and tag naming, commit messages etc. I’m a big fan of <a href="https://danielkummer.github.io/git-flow-cheatsheet/">git-flow</a> since it’s clearly defined and scaleable to any project size.</p>
+
+<p><img src="/images/conferences/conf_git.png" alt="Conferences Git" /></p>
+<p style="font-size: 7pt">(Commit messages could me improved)</p>
+
+<p>As soon as you’re ready to ship an initial version to beta testers, it’s always a good idea to use build and crash reporting tools. My favourite tools for this job are <a href="http://fastlane.tools">Fastlane</a> and Crashlytics (<a href="https://fabric.io/">Fabric.io</a>), they are both commenly known, super easy to set up and provide a variety of functionality. If you are using Fabric.io make sure to keep an eye on their current <a href="https://get.fabric.io/roadmap">roadmap</a>.</p>
+
+<h2 id="what-next">What next?</h2>
+<p>The macOS app has reached a couple of thousand users so far and gained widespread support from the community. The app was mentioned in</p>
+<ul>
+  <li><a href="https://iosdevweekly.com/issues/395">iOS Dev Weekly</a></li>
+  <li><a href="https://9to5mac.com/2019/03/13/stacktrace-podcast-027-lets-spelunk-my-life/">Stacktrace Podcast</a></li>
+  <li><a href="https://itunes.apple.com/gb/podcast/swift-over-coffee/id1435076502">Swift over Coffee Podcast</a></li>
+  <li><a href="https://m.youtube.com/watch?v=zvAlFwZjWzw">Swift News</a></li>
+  <li><a href="https://ios-goodies.com/post/183450329877/week-273">iOS Goodies</a></li>
+</ul>
+
+<p>Since then we have grown into a small community of developers working on an initial versions of the iOS and tvOS app. If you want to learn more about it or even contribute - there’s also a lot to do besides writing code - please feel free to join our <a href="https://join.slack.com/t/conferencesdigital/shared_invite/enQtNTc3MjEyNzE0NTYxLTU2NTgxOTI3YjBlN2JkZTA2ODAxMTQ0OWJlMDhmMjZmZWMzNTA1OTM3YjQ3YzRkZjZhZGEzNzdhN2M2ZjAxNDI">slack channel</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>It was really fun to work with a lot of different new technologies and I never thought that this app could reach so many people. After writing this blog post, I realised that I focused more on build tools/techniques rather than on coding problems I encountered. But honestly, working as a software developer also means that you spend a lot of time with build tools, so it’s a valuable asset to know your tools!</p>
+
+
+  </div>
+
+  <div class="tags">
+    
+    <a class="tag Swift">Swift</a>
+    
+    <a class="tag TinyConstraints">TinyConstraints</a>
+    
+    <a class="tag Realm">Realm</a>
+    
+    <a class="tag Programmatically UI">Programmatically UI</a>
+    
+    <a class="tag Fabric.io">Fabric.io</a>
+    
+    <a class="tag Fastlane">Fastlane</a>
+    
+    <a class="tag git flow">git flow</a>
+    
+    <a class="tag Vapor">Vapor</a>
+    
+    <a class="tag MySQL">MySQL</a>
+    
+    <a class="tag Docker">Docker</a>
+    
+  </div>
+
+    <div class="share">
+  <script>window.twttr = (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+
+      t._e = [];
+      t.ready = function (f) {
+        t._e.push(f);
+      };
+
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
+
+  <div class="vertical-row">
+    <a class="inner twitter-share-button" href="https://twitter.com/intent/tweet?text=Conferences for macOS - " data-size="large">
+      Tweet</a>
+      </div>
+</div>
+    
+</article>
+
+      </div>
+    </div>
+<!--
+    <div class="wrapper-footer outer">
+      <footer class="middle">
+        <div class="codingContainer inner">
+          <pre>
+
+          </pre>
+      </footer>
+    </div>
+-->
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-145146329-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/Conferences-for-macOS/',
+		  'title': 'Conferences for macOS'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </div>
+</body>
+
+</html>
