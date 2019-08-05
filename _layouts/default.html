@@ -9,9 +9,8 @@
     <![endif]-->
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/page/favicon.png" />
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/lightbox.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/scripts.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -24,11 +23,20 @@
               <p class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></p>
           </div>
           <div class="right">
-            <nav>
-              <a href="{{ site.baseurl }}/music/">musik</a>
-              <a href="{{ site.baseurl }}/projects">projects</a>
+            <div class="navbar">
+              <a href="{{ site.baseurl }}/music/">music</a>              
+              <div class="dropdown">
+                <button class="dropbtn">projects
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="{{ site.baseurl }}/curation">curation</a>
+                  <a href="{{ site.baseurl }}/film">film</a>
+                  <a href="{{ site.baseurl }}/words">words</a>
+                </div>
+              </div>
               <a href="{{ site.baseurl }}/about">about</a>
-            </nav>
+            </div>
             </div>
           </div>
         </div>                

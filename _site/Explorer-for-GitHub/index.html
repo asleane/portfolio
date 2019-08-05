@@ -47,9 +47,8 @@
     <![endif]-->
   <link rel="icon" type="image/png" href="/images/page/favicon.png" />
   <link rel="stylesheet" type="text/css" href="/style.css" />
-  <link rel="stylesheet" type="text/css" href="/lightbox.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="/scripts.js"></script>
-  <script type="text/javascript" src="/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -62,11 +61,20 @@
               <p class="site-name"><a href="/">Asléane</a></p>
           </div>
           <div class="right">
-            <nav>
-              <a href="/music/">musik</a>
-              <a href="/projects">projects</a>
+            <div class="navbar">
+              <a href="/music/">music</a>              
+              <div class="dropdown">
+                <button class="dropbtn">projects
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/curation">curation</a>
+                  <a href="/film">film</a>
+                  <a href="/words">words</a>
+                </div>
+              </div>
               <a href="/about">about</a>
-            </nav>
+            </div>
             </div>
           </div>
         </div>                
