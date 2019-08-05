@@ -9,12 +9,12 @@ category: curation
 <section id="josephine">
     <h2>Photography for the Curious Cyclist Collection by Josephine Jones</h2>
     <section class="photos2">
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/6.jpg"></a>
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/2.jpg"></a>
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/3.jpg"></a>
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/4.jpg"></a>
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/5.jpg"></a>
-        <a href="#"><img src="{{ site.baseurl }}/images/josephine/1.jpg"></a>
+        <img src="{{ site.baseurl }}/images/josephine/6.jpg">
+        <img src="{{ site.baseurl }}/images/josephine/2.jpg">
+        <img src="{{ site.baseurl }}/images/josephine/3.jpg">
+        <img src="{{ site.baseurl }}/images/josephine/4.jpg">
+        <img src="{{ site.baseurl }}/images/josephine/5.jpg">
+        <img src="{{ site.baseurl }}/images/josephine/1.jpg">
     </section>
     <br>
     <br>
