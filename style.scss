@@ -816,6 +816,18 @@ article.fullPost {
     .content {
       background-color: #E24346
     }
+
+    @include mobile {
+      img {
+        display: none
+      }
+
+      .top-left {
+        width: 95%;
+        position: relative;
+      }
+      
+    }
   
     .backgroundImage {
       background-image: url('http://pragatiresorts.com/wp-content/uploads/2018/10/Nature-walk-1.jpg');
@@ -832,6 +844,12 @@ article.fullPost {
       margin-bottom: 60px;
       padding-bottom: 100px;
 
+      @include mobile {
+        iframe {
+          width: 100%;
+        }
+      }
+
       .center {
         display: table;
         width: 100%;
@@ -846,7 +864,7 @@ article.fullPost {
           height: 100%;
           display: inline-block;
           vertical-align: middle;
-        }
+        }        
       }
 
       .tags {

@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/Explorer-for-GitHub/</loc>
-<lastmod>2018-01-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Conferences-for-iOS/</loc>
-<lastmod>2019-01-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/Conferences-for-macOS/</loc>
-<lastmod>2019-02-02T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/frame/</loc>
 <lastmod>2019-08-04T00:00:00+01:00</lastmod>
 </url>
@@ -44,18 +32,15 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/film/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/projects/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/music/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/curation/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/curation/</loc>
+<loc>http://localhost:4000/film/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
 </url>
 </urlset>
