@@ -1,0 +1,17 @@
+I"I<div style="margin: auto;
+  width: 50%;">
+<img src="/images/music.jpg" />
+
+<div style="margin: auto;width: 100%;">
+<p style="text-align: center;">Fingertips is out now.</p>
+<p style="text-align: center;">Portrait by Edward Smyth.</p>
+<p style="text-align: center;">Single artwork by Maddy Ciani &amp; Bea Redweik.</p>
+
+</div>
+
+<div class="hideMobile" style="margin: auto;width: 60%;">
+<iframe src="https://open.spotify.com/embed/album/5rLwufHc8vEKGEUbMFyt1i" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+<div>
+</div></div>
+:ET
